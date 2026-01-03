@@ -53,7 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 30),
 
-              /// Username
+       
               TextField(
                 controller: usernameController,
                 decoration: InputDecoration(
@@ -67,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 16),
 
-              /// Password
+         
               TextField(
                 controller: passwordController,
                 obscureText: true,
@@ -82,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 24),
 
-              /// Login Button
+
               SizedBox(
                 width: double.infinity,
                 height: 45,
@@ -98,3 +98,4 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
+
